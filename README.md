@@ -10,10 +10,11 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## what did i use and learn
 
-- how to directives like ngfor
-- data binding : two-way binding using ngModel
+- how the directives like ngfor
+- data binding :
+  - two-way binding using `[(ngModel)]`
+  - `[ngClass]`, `[readOnly]` ...
 
 - work with **Shared services** RxJs and parent child components and the different between them
 - shared services using **BehaviorSubject** and subscribe to it
-
-
+- working with events, especially with keyboard events like `keyup` or `keyup.enter` 
